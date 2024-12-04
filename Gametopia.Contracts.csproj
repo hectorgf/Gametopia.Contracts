@@ -11,11 +11,12 @@
 	<!-- Genera el paquete en cada build -->
 	<Version>0.0.1</Version>
 	<!-- Cambia esto según el control de versiones -->
-	<Authors>Gametopia</Authors>
+	<Authors>Gametopia</Authors>	  
 	<Company>Gametopia</Company>
 	<Description>Modelos de comunicación entre microservicios y aplicaciones de Gametopia.</Description>
 	<PackageTags>Gametopia;Contracts;Microservices</PackageTags>
 	<RepositoryUrl>https://github.com/hectorgf/Gametopia.Contracts</RepositoryUrl>
+	<Owners>Gametopia</Owners>
   </PropertyGroup>
 
   <ItemGroup>

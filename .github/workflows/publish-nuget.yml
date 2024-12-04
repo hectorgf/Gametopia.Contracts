@@ -38,4 +38,4 @@ jobs:
 
       # 6. Publish to NuGet
       - name: Publish to NuGet
-        run: dotnet nuget push ./nupkg/*.nupkg --api-key ${{ secrets.NUGET_SECRET }} --source https://api.nuget.org/v3/index.json
+        run: dotnet nuget push ./nupkg/*.nupkg --api-key ${{ secrets.NUGET_SECRET }} --source https://www.nuget.org/organization/Gametopia

@@ -1,26 +1,25 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
+	<PropertyGroup>
+		<TargetFramework>net8.0</TargetFramework>
+		<ImplicitUsings>enable</ImplicitUsings>
+		<Nullable>enable</Nullable>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<AssemblyName>Gametopia.Contracts</AssemblyName>
+		<RootNamespace>Gametopia.Contracts</RootNamespace>
+		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+		<!-- Genera el paquete en cada build -->
+		<Version>0.0.2</Version>
+		<!-- Cambia esto según el control de versiones -->
+		<Authors>Gametopia</Authors>
+		<Company>Gametopia</Company>
+		<Owners>Gametopia</Owners>
+		<Description>Modelos de comunicación entre microservicios y aplicaciones de Gametopia.</Description>
+		<PackageTags>Gametopia;Contracts;Microservices</PackageTags>
+		<RepositoryUrl>https://github.com/hectorgf/Gametopia.Contracts</RepositoryUrl>
+	</PropertyGroup>
 
-  <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
-    <ImplicitUsings>enable</ImplicitUsings>
-    <Nullable>enable</Nullable>
-    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-	<AssemblyName>Gametopia.Contracts</AssemblyName>
-	<RootNamespace>Gametopia.Contracts</RootNamespace>
-	<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-	<!-- Genera el paquete en cada build -->
-	<Version>0.0.2</Version>
-	<!-- Cambia esto según el control de versiones -->
-	<Authors>Gametopia</Authors>	  
-	<Company>Gametopia</Company>
-	<Description>Modelos de comunicación entre microservicios y aplicaciones de Gametopia.</Description>
-	<PackageTags>Gametopia;Contracts;Microservices</PackageTags>
-	<RepositoryUrl>https://github.com/hectorgf/Gametopia.Contracts</RepositoryUrl>
-	<Owners>Gametopia</Owners>
-  </PropertyGroup>
-
-  <ItemGroup>
-    <Folder Include="WebApi\" />
-  </ItemGroup>
+	<ItemGroup>
+		<Folder Include="WebApi\" />
+	</ItemGroup>
 
 </Project>

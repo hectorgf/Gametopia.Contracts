@@ -4,7 +4,7 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-		<AssemblyName>Contracts</AssemblyName>
+		<AssemblyName>Gametopia.Contracts</AssemblyName>
 		<RootNamespace>Gametopia.Contracts</RootNamespace>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<!-- Genera el paquete en cada build -->

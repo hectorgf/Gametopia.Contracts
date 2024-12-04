@@ -5,12 +5,17 @@
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <Authors>Drakko</Authors>
-    <Company>Gametopia</Company>
-    <Description>Gametopia contract for communication between projects</Description>
-    <PackageId>Gametopia.Contracts</PackageId>
-    <Version>0.0.1</Version>
-    <RepositoryUrl>https://github.com/hectorgf/Gametopia.Contracts</RepositoryUrl>
+	<AssemblyName>Gametopia.Contracts</AssemblyName>
+	<RootNamespace>Gametopia.Contracts</RootNamespace>
+	<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+	<!-- Genera el paquete en cada build -->
+	<Version>0.0.1</Version>
+	<!-- Cambia esto según el control de versiones -->
+	<Authors>Gametopia</Authors>
+	<Company>Gametopia</Company>
+	<Description>Modelos de comunicación entre microservicios y aplicaciones de Gametopia.</Description>
+	<PackageTags>Gametopia;Contracts;Microservices</PackageTags>
+	<RepositoryUrl>https://github.com/hectorgf/Gametopia.Contracts</RepositoryUrl>
   </PropertyGroup>
 
   <ItemGroup>

@@ -4,11 +4,11 @@
 		<ImplicitUsings>enable</ImplicitUsings>
 		<Nullable>enable</Nullable>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-		<AssemblyName>Gametopia.Contracts</AssemblyName>
+		<AssemblyName>Contracts</AssemblyName>
 		<RootNamespace>Gametopia.Contracts</RootNamespace>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<!-- Genera el paquete en cada build -->
-		<Version>0.0.2</Version>
+		<Version>0.0.1</Version>
 		<!-- Cambia esto según el control de versiones -->
 		<Authors>Gametopia</Authors>
 		<Company>Gametopia</Company>

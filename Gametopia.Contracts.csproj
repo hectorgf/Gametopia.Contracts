@@ -9,7 +9,7 @@
 	<RootNamespace>Gametopia.Contracts</RootNamespace>
 	<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 	<!-- Genera el paquete en cada build -->
-	<Version>0.0.1</Version>
+	<Version>0.0.2</Version>
 	<!-- Cambia esto según el control de versiones -->
 	<Authors>Gametopia</Authors>	  
 	<Company>Gametopia</Company>

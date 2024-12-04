@@ -8,6 +8,6 @@ namespace Gametopia.Contracts.SteamIntegration.SteamGamesService
 {
     public class SteamGamesResponse
     {
-        public List<GameDto> Games { get; set; }
+        public List<GameDto> Games { get; set; } = new List<GameDto> { };
     }
 }

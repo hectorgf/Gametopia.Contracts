@@ -9,7 +9,7 @@ namespace Gametopia.Contracts.SteamIntegration
     public class GameDto
     {
         public int AppId { get; set; }
-        public string Name { get; set; }
-        public string IconUrl { get; set; }
+        public string Name { get; set; } = string.Empty;
+        public string IconUrl { get; set; } = string.Empty;
     }
 }

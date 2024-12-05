@@ -19,6 +19,8 @@
 	</PropertyGroup>
 
 	<ItemGroup>
+		<Folder Include="GameStorage\" />
+		<Folder Include="Matchmaking\" />
 		<Folder Include="WebApi\" />
 	</ItemGroup>
 

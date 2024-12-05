@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using static Gametopia.Contracts.Enums.UserRelations;
 
 namespace Gametopia.Contracts.DTOs
 {
     public class ReportDto
     {
-        public string Reason { get; set; } = null!;
+        public ReportReason Reason { get; set; } = ReportReason.None;
         public string? Comment { get; set; }
     }
 }

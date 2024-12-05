@@ -18,6 +18,7 @@ namespace Gametopia.Contracts.Enums
 
         public enum ReportReason
         {
+            None = 0,
             Spam = 1,
             Harassment = 2,
             HateSpeech = 3,

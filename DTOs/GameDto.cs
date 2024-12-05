@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Gametopia.Contracts.SteamIntegration
+namespace Gametopia.Contracts.DTOs
 {
     public class GameDto
     {

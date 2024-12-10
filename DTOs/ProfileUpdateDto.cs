@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Gametopia.Contracts.WebApi.GametopiaUser
+namespace Gametopia.Contracts.DTOs
 {
-    public class ProfileUpdateRequest
+    public class ProfileUpdateDto
     {
         public string SteamUser { get; set; }
         public string Nick { get; set; }

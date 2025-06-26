@@ -8,8 +8,8 @@ namespace Gametopia.Contracts.DTOs
 {
     public class ProfileUpdateDto
     {
-        public string SteamUser { get; set; }
-        public string Nick { get; set; }
+        public string SteamUser { get; set; } = string.Empty;
+        public string Nick { get; set; } = string.Empty;
     }
 
 }

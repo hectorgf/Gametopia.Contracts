@@ -8,7 +8,7 @@
 		<RootNamespace>Gametopia.Contracts</RootNamespace>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<!-- Genera el paquete en cada build -->
-		<Version>0.0.14</Version>
+		<Version>0.0.15</Version>
 		<!-- Cambia esto según el control de versiones -->
 		<Authors>Gametopia</Authors>
 		<Company>Gametopia</Company>
@@ -17,11 +17,16 @@
 		<PackageTags>Gametopia;Contracts;Microservices</PackageTags>
 		<RepositoryUrl>https://github.com/hectorgf/Gametopia.Contracts</RepositoryUrl>
 	</PropertyGroup>
-
 	<ItemGroup>
-		<Folder Include="GameStorage\" />
-		<Folder Include="Matchmaking\" />
-		<Folder Include="WebApi\" />
+	  <Compile Remove="GameStorage\**" />
+	  <Compile Remove="Matchmaking\**" />
+	  <Compile Remove="WebApi\**" />
+	  <EmbeddedResource Remove="GameStorage\**" />
+	  <EmbeddedResource Remove="Matchmaking\**" />
+	  <EmbeddedResource Remove="WebApi\**" />
+	  <None Remove="GameStorage\**" />
+	  <None Remove="Matchmaking\**" />
+	  <None Remove="WebApi\**" />
 	</ItemGroup>
 
 </Project>

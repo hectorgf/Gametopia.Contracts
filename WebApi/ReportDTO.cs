@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using static Gametopia.Contracts.Enums.UserRelations;
 
-namespace Gametopia.Contracts.DTOs
+namespace Gametopia.Contracts.WebApi
 {
     /// <summary>
     /// Data Transfer Object for user reports.

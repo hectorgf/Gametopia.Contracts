@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Gametopia.Contracts.DTOs.AuthDTOs
+namespace Gametopia.Contracts.WebApi.AuthDTOs
 {
     /// <summary>
     /// Data Transfer Object for user login requests.

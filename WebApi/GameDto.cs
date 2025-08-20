@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Gametopia.Contracts.DTOs
+namespace Gametopia.Contracts.WebApi
 {
     /// <summary>
     /// Data Transfer Object representing a game.

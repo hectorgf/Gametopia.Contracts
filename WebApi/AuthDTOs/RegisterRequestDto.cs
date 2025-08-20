@@ -4,23 +4,28 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Gametopia.Contracts.DTOs.Profile
+namespace Gametopia.Contracts.WebApi.AuthDTOs
 {
     /// <summary>
-    /// Data Transfer Object for profile update requests.
-    /// Contains the information required to update a user's profile.
+    /// Data Transfer Object for user registration requests.
+    /// Contains the information required to register a new user.
     /// </summary>
-    public class ProfileUpdateRequestDto
+    public class RegisterRequestDto
     {
         /// <summary>
-        /// Gets or sets the Steam username associated with the user.
+        /// Gets or sets the email address of the user.
         /// </summary>
-        public string SteamUser { get; set; } = string.Empty;
+        public string Email { get; set; } = string.Empty;
 
         /// <summary>
         /// Gets or sets the nickname of the user.
         /// </summary>
         public string Nick { get; set; } = string.Empty;
+
+        /// <summary>
+        /// Gets or sets the password for the new user account.
+        /// </summary>
+        public string Password { get; set; } = string.Empty;
 
         /// <summary>
         /// Gets or sets the first name of the user.

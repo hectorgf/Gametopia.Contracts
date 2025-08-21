@@ -11,7 +11,22 @@ namespace Gametopia.Contracts.SteamIntegration.SteamUser
     {
         [JsonPropertyName("steamid")]
         public string SteamId { get; set; } = string.Empty;
+
+        private int _successValue;
+
         [JsonPropertyName("success")]
-        public bool Success { get; set; } = false;
+        public int SuccessValue
+        {
+            get => _successValue;
+            set
+            {
+                _successValue = value;
+                Success = value == 1;
+            }
+        }
+
+        [JsonIgnore]
+        public bool Success { get; private set; }
     }
+
 }

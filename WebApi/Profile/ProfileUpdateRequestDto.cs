@@ -15,7 +15,7 @@ namespace Gametopia.Contracts.WebApi.Profile
         /// <summary>
         /// Gets or sets the Steam username associated with the user.
         /// </summary>
-        public string SteamUser { get; set; } = string.Empty;
+        public string SteamUrl { get; set; } = string.Empty;
 
         /// <summary>
         /// Gets or sets the nickname of the user.

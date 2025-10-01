@@ -8,7 +8,7 @@
 		<RootNamespace>Gametopia.Contracts</RootNamespace>
 		<GeneratePackageOnBuild>true</GeneratePackageOnBuild>
 		<!-- Genera el paquete en cada build -->
-		<Version>0.0.24</Version>
+		<Version>0.0.25</Version>
 		<!-- Cambia esto según el control de versiones -->
 		<Authors>Gametopia</Authors>
 		<Company>Gametopia</Company>
@@ -24,6 +24,9 @@
 	  <EmbeddedResource Remove="Matchmaking\**" />
 	  <None Remove="GameStorage\**" />
 	  <None Remove="Matchmaking\**" />
+	</ItemGroup>
+	<ItemGroup>
+	  <Folder Include="WebApi\Steam\" />
 	</ItemGroup>
 
 </Project>

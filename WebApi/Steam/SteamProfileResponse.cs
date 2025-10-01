@@ -18,7 +18,6 @@ namespace Gametopia.Contracts.WebApi.Steam
         [JsonPropertyName("personaname")]
         public string DisplayName { get; set; }
         public bool IsPrivate { get; set; }
-        [JsonPropertyName("lastlogoff")]
         public DateTime LastUpdated { get; set; }
         public List<string> GameIds { get; set; } = new List<string>();
         public List<string> GameNames { get; set; } = new List<string>();

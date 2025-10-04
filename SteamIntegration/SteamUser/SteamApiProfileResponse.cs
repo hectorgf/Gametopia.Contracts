@@ -18,7 +18,7 @@ namespace Gametopia.Contracts.SteamIntegration.SteamUser
         public string DisplayName { get; set; }
 
         [JsonPropertyName("communityvisibilitystate")]
-        public bool IsPrivate { get; set; }
+        public int IsPrivate { get; set; }
         
         [JsonPropertyName("lastlogoff")]
         [JsonConverter(typeof(UnixTimestampToDateTimeConverter))]

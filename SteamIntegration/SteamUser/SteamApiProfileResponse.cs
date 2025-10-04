@@ -3,7 +3,7 @@ using System.Text.Json.Serialization;
 
 namespace Gametopia.Contracts.SteamIntegration.SteamUser
 {
-    public class SteamProfileResponse
+    public class SteamApiProfileResponse
     {
         [JsonPropertyName("steamid")]
         public string SteamId { get; set; }
@@ -16,19 +16,12 @@ namespace Gametopia.Contracts.SteamIntegration.SteamUser
         
         [JsonPropertyName("personaname")]
         public string DisplayName { get; set; }
-        
+
+        [JsonPropertyName("communityvisibilitystate")]
         public bool IsPrivate { get; set; }
         
         [JsonPropertyName("lastlogoff")]
         [JsonConverter(typeof(UnixTimestampToDateTimeConverter))]
         public DateTime LastLogOff { get; set; }
-
-        public List<string> GameIds { get; set; } = new List<string>();
-
-        public List<string> GameNames { get; set; } = new List<string>();
-
-        public int TotalGamesCount { get; set; }
-
-        public int TotalPlaytimeMinutes { get; set; }
     }
 }
